@@ -1,0 +1,93 @@
+<!-- By http://jquery-manual.blogspot.com -->
+<!DOCTYPE HTML>
+<html>
+<head> 
+<title>maxLength Jquery</title>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="maxLength.js"></script>
+
+<script>
+$(function(){
+$("#textarea").maxLength(50, {
+showNumber: "#limit", 
+revert: true
+});
+});
+</script>
+
+ <style>
+ @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+ body{
+ font-family: 'Ubuntu Mono', sans-serif;
+ background: #DEE3F0;
+ }
+ 
+ textarea
+ {
+ border-radius: 4px;
+ border: 1px solid #DEE3F0;
+ padding: 15px;
+ }
+ 
+ #limit
+ {
+ font-weight: bold;
+ color: red;
+ }
+ 
+ pre
+ {
+ background: #FFFFFF;
+ padding: 10px;
+ }
+ </style>
+ </head>
+ <body>
+ <h1>maxLength Jquery</h1>
+ <h3>By <a href="http://jquery-manual.blogspot.com" target="_blank">http://jquery-manual.blogspot.com</a></h3>
+ 
+ <a href="https://github.com/ManuDavila/maxLength" target="_blank">Descargar en GITHUB</a>
+ 
+<p>maxLength es una función Jquery que permite limitar el número de caracteres en un campo textarea.</p>
+
+<p>maxLength tiene dos parámetros:</p>
+<ul>
+<li><strong>limit</strong> : Para indicar el límite máximo de caracteres.</li>
+<li><strong>options(opcional)</strong> : Permite modificar las siguientes dos opciones:
+<ul>
+<li><strong>showNumber</strong> : <i>Elemento</i>. Para indicar el elemento que mostrará el contador.</li>
+<li><strong>revert</strong> : <i>true | false. Default true</i>. El orden que seguirá el contador, es decir de mayor a menor(true) o de menor a mayor(false).</li>
+</ul>
+</li>
+</ul>
+<center>
+<table>
+<tr>
+<td>
+<div>LIMIT: <span id="limit"></span></div>
+<textarea id="textarea" cols="30" rows="15"></textarea>
+</td>
+<td>
+Jquery code:
+<pre>
+$(function(){
+$("#textarea").maxLength(50, {
+showNumber: "#limit", 
+revert: true
+});
+});
+</pre>
+<br />
+HTML code:
+<pre>
+&lt;div&gt;LIMIT: &lt;span id="limit"&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;textarea id="textarea" cols="30" rows="15"&gt;&lt;/textarea&gt;
+</pre>
+</td>
+</tr>
+</table>
+
+</center>
+<br /><br /><br /><br />
+</body>
+</html>
