@@ -6,7 +6,7 @@ maxLength
 
 <p>maxLength is a Jquery function that allows you to limit the number of char in a textarea field.</p>
 
-<strong><a href="" target="_blank">DEMO maxLength Textarea</a></strong>
+<strong><a href="http://jquery-manual.blogspot.com/2013/11/maxlength-how-to-limit-number-of-char.html" target="_blank">DEMO maxLength Textarea</a></strong>
 
 <p>maxLength has two parameters:</p>
 <ul>
@@ -23,7 +23,7 @@ maxLength
  
 <p>maxLength es una función Jquery que permite limitar el número de caracteres en un campo textarea.</p>
 
-<strong><a href="" target="_blank">DEMO maxLength Textarea</a></strong>
+<strong><a href="http://jquery-manual.blogspot.com/2013/11/maxlength-como-limitar-el-numero-de.html" target="_blank">DEMO maxLength Textarea</a></strong>
 
 <p>maxLength tiene dos parámetros:</p>
 <ul>
